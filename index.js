@@ -5,12 +5,14 @@ module.exports = {
   overrides: [
     {
       files: [
-        'node_modules',
-        'dist',
-        'coverage',
-        '.vite-inspect',
-        '.output',
-        '.changeset',
+        '**/node_modules/**',
+        '**/dist/**',
+        '**/coverage/**',
+        '**/.vite-inspect/**',
+        '**/.output/**',
+        '**/.nuxt/**',
+        '**/.changeset/**',
+        '**/.vitepress/cache/**',
         'CHANGELOG.md',
         'pnpm-lock.yaml',
       ],
