@@ -16,7 +16,7 @@
     "index.js"
   ],
   "scripts": {
-    "release": "bumpp"
+    "release": "bumpp && pnpm publish"
   },
   "publishConfig": {
     "access": "public"
