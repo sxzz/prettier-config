@@ -1,4 +1,4 @@
-# @sxzz/prettier-config [![npm](https://img.shields.io/npm/v/prettier-config.svg)](https://npmjs.com/package/prettier-config)
+# @sxzz/prettier-config [![npm](https://img.shields.io/npm/v/@sxzz/prettier-config.svg)](https://npmjs.com/package/@sxzz/prettier-config)
 
 Prettier config.
 
