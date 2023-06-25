@@ -15,6 +15,9 @@
   "files": [
     "index.js"
   ],
+  "scripts": {
+    "release": "bumpp"
+  },
   "publishConfig": {
     "access": "public"
   },
