@@ -28,7 +28,7 @@ module.exports = {
         '**/pnpm-lock.yaml',
       ],
       options: {
-        rangeEnd: 0,
+        requirePragma: true,
       },
     },
   ],
