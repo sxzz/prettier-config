@@ -10,7 +10,6 @@ module.exports = {
         '**/output/**',
         '**/coverage/**',
         '**/temp/**',
-        '**/fixtures/**',
         '**/.vitepress/cache/**',
         '**/.nuxt/**',
         '**/.vercel/**',
