@@ -1,7 +1,7 @@
 module.exports = {
   semi: false,
   singleQuote: true,
-  trailingComma: 'es5',
+  trailingComma: 'all',
   overrides: [
     {
       files: [
