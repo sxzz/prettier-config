@@ -12,6 +12,7 @@ npm i -D @sxzz/prettier-config
 
 - No semi
 - Single quotes
+- Trailing comma
 
 ## Reference
 
