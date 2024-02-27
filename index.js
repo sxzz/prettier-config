@@ -24,6 +24,7 @@ module.exports = {
         '**/__snapshots__',
         '**/auto-import?(s).d.ts',
         '**/components.d.ts',
+        '**/typed-router.d.ts',
         '**/pnpm-lock.yaml',
       ],
       options: {
