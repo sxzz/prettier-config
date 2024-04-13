@@ -14,10 +14,6 @@ npm i -D @sxzz/prettier-config
 - Single quotes
 - Trailing comma
 
-## Reference
-
-- https://github.com/fzf404/prettier-config
-
 ## Sponsors
 
 <p align="center">
