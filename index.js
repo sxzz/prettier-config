@@ -34,5 +34,11 @@ module.exports = {
         requirePragma: true,
       },
     },
+    {
+      files: ['**/jsr.json'],
+      options: {
+        parser: 'json-stringify',
+      },
+    },
   ],
 }
