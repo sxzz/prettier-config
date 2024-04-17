@@ -1,6 +1,6 @@
 {
   "name": "@sxzz/prettier-config",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "packageManager": "pnpm@8.6.0",
   "description": "Prettier config for @sxzz",
   "license": "MIT",
