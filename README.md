@@ -10,9 +10,11 @@ npm i -D @sxzz/prettier-config
 
 ## Features
 
-- No semi
+- 2 spaces
+- No semicolons
 - Single quotes
-- Trailing comma
+- Trailing commas
+- Ignore common files (`dist`, `pnpm-lock.yaml`...)
 
 ## Sponsors
 
