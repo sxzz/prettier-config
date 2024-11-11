@@ -22,7 +22,7 @@
     "access": "public"
   },
   "devDependencies": {
-    "bumpp": "^9.8.0",
+    "bumpp": "^9.8.1",
     "prettier": "^3.3.3"
   },
   "prettier": "./index.js"
