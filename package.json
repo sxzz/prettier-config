@@ -1,9 +1,9 @@
 {
   "name": "@sxzz/prettier-config",
   "version": "2.0.2",
-  "type": "module",
   "packageManager": "pnpm@9.15.3",
   "description": "Prettier config for @sxzz",
+  "type": "module",
   "license": "MIT",
   "homepage": "https://github.com/sxzz/prettier-config#readme",
   "bugs": {
@@ -16,14 +16,17 @@
   "files": [
     "index.js"
   ],
-  "scripts": {
-    "release": "bumpp && pnpm publish"
-  },
   "publishConfig": {
     "access": "public"
   },
+  "scripts": {
+    "lint": "eslint --cache",
+    "release": "bumpp && pnpm publish"
+  },
   "devDependencies": {
+    "@sxzz/eslint-config": "^4.6.0",
     "bumpp": "^9.10.0",
+    "eslint": "^9.18.0",
     "prettier": "^3.4.2"
   },
   "prettier": "./index.js"
