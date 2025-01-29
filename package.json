@@ -28,7 +28,7 @@
     "release": "bumpp && pnpm publish"
   },
   "devDependencies": {
-    "@sxzz/eslint-config": "^4.6.0",
+    "@sxzz/eslint-config": "^5.0.0-beta.2",
     "bumpp": "^10.0.1",
     "eslint": "^9.19.0",
     "prettier": "^3.4.2"
