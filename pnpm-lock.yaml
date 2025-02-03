@@ -9,8 +9,8 @@ importers:
   .:
     devDependencies:
       '@sxzz/eslint-config':
-        specifier: ^5.0.0-beta.2
-        version: 5.0.0-beta.2(@types/eslint@9.6.1)(@typescript-eslint/eslint-plugin@8.22.0(@typescript-eslint/parser@8.22.0(eslint@9.19.0(jiti@2.4.2))(typescript@5.7.3))(eslint@9.19.0(jiti@2.4.2))(typescript@5.7.3))(@unocss/eslint-plugin@65.4.2(eslint@9.19.0(jiti@2.4.2))(typescript@5.7.3))(eslint@9.19.0(jiti@2.4.2))(typescript@5.7.3)
+        specifier: ^5.0.0
+        version: 5.0.0(@types/eslint@9.6.1)(@typescript-eslint/eslint-plugin@8.22.0(@typescript-eslint/parser@8.22.0(eslint@9.19.0(jiti@2.4.2))(typescript@5.7.3))(eslint@9.19.0(jiti@2.4.2))(typescript@5.7.3))(@unocss/eslint-plugin@65.4.2(eslint@9.19.0(jiti@2.4.2))(typescript@5.7.3))(eslint@9.19.0(jiti@2.4.2))(typescript@5.7.3)
       bumpp:
         specifier: ^10.0.1
         version: 10.0.1
@@ -428,8 +428,8 @@ packages:
     resolution: {integrity: sha512-cq8o4cWH0ibXh9VGi5P20Tu9XF/0fFXl9EUinr9QfTM7a7p0oTA4iJRCQWppXR1Pg8dSM0UCItCkPwsk9qWWYA==}
     engines: {node: ^12.20.0 || ^14.18.0 || >=16.0.0}
 
-  '@sxzz/eslint-config@5.0.0-beta.2':
-    resolution: {integrity: sha512-NlDuxS6/rlOpWodLYrJWeot/US8s/Nz07nYnWq7U9QIIAL5Oto5egbXjNMBKCCOvxvCVm7d6OB6MG4zbDiCMdQ==}
+  '@sxzz/eslint-config@5.0.0':
+    resolution: {integrity: sha512-6C5yAniRSglejo/Meezgx7JAu/VOhUSzPIPpZB1QumJIFFS2n3wwHUSnvy7yYTgdlWtVBswIcyXrNgZpF+EL7g==}
     engines: {node: ^18.18.0 || >=20.0.0}
     peerDependencies:
       '@unocss/eslint-plugin': '>=65.0.0'
@@ -1985,7 +1985,7 @@ snapshots:
 
   '@pkgr/core@0.1.1': {}
 
-  '@sxzz/eslint-config@5.0.0-beta.2(@types/eslint@9.6.1)(@typescript-eslint/eslint-plugin@8.22.0(@typescript-eslint/parser@8.22.0(eslint@9.19.0(jiti@2.4.2))(typescript@5.7.3))(eslint@9.19.0(jiti@2.4.2))(typescript@5.7.3))(@unocss/eslint-plugin@65.4.2(eslint@9.19.0(jiti@2.4.2))(typescript@5.7.3))(eslint@9.19.0(jiti@2.4.2))(typescript@5.7.3)':
+  '@sxzz/eslint-config@5.0.0(@types/eslint@9.6.1)(@typescript-eslint/eslint-plugin@8.22.0(@typescript-eslint/parser@8.22.0(eslint@9.19.0(jiti@2.4.2))(typescript@5.7.3))(eslint@9.19.0(jiti@2.4.2))(typescript@5.7.3))(@unocss/eslint-plugin@65.4.2(eslint@9.19.0(jiti@2.4.2))(typescript@5.7.3))(eslint@9.19.0(jiti@2.4.2))(typescript@5.7.3)':
     dependencies:
       '@eslint-community/eslint-plugin-eslint-comments': 4.4.1(eslint@9.19.0(jiti@2.4.2))
       '@eslint/js': 9.19.0
