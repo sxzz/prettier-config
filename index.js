@@ -10,7 +10,6 @@ export default {
       files: [
         '**/node_modules/**',
         '**/dist/**',
-        '**/output/**',
         '**/coverage/**',
         '**/temp/**',
         '**/.vitepress/cache/**',
@@ -20,6 +19,9 @@ export default {
         '**/.idea/**',
         '**/.output/**',
         '**/.vite-inspect/**',
+
+        // root directory
+        'output/**',
 
         '**/CHANGELOG*.md',
         '**/*.min.*',
