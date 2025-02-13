@@ -15,8 +15,10 @@
   },
   "author": "三咲智子 Kevin Deng <sxzz@sxzz.moe>",
   "files": [
+    "index.d.ts",
     "index.js"
   ],
+  "types": "index.d.ts",
   "exports": {
     ".": "./index.js",
     "./package.json": "./package.json"
