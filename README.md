@@ -1,11 +1,11 @@
-# @sxzz/prettier-config [![npm](https://img.shields.io/npm/v/@sxzz/prettier-config.svg)](https://npmjs.com/package/@sxzz/prettier-config)
+# @adufr/prettier-config [![npm](https://img.shields.io/npm/v/@adufr/prettier-config.svg)](https://npmjs.com/package/@adufr/prettier-config)
 
-Prettier config.
+Prettier config, based on @sxzz's [prettier-config](https://github.com/sxzz)
 
 ## Install
 
 ```bash
-npm i -D @sxzz/prettier-config
+npm i -D @adufr/prettier-config
 ```
 
 ## Features
@@ -16,14 +16,6 @@ npm i -D @sxzz/prettier-config
 - Trailing commas
 - Ignore common files (`dist`, `pnpm-lock.yaml`...)
 
-## Sponsors
-
-<p align="center">
-  <a href="https://cdn.jsdelivr.net/gh/sxzz/sponsors/sponsors.svg">
-    <img src='https://cdn.jsdelivr.net/gh/sxzz/sponsors/sponsors.svg'/>
-  </a>
-</p>
-
 ## License
 
-[MIT](./LICENSE) License © 2023-PRESENT [三咲智子](https://github.com/sxzz)
+[MIT](./LICENSE) License © 2025-PRESENT [Arthur Dufour](https://github.com/adufr)

@@ -1,2 +1,2 @@
-import { sxzz } from '@sxzz/eslint-config'
-export default sxzz()
+import { adufr } from '@adufr/eslint-config'
+export default adufr()
