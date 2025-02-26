@@ -35,7 +35,7 @@
     "prettier-plugin-tailwindcss": "^0.6.11"
   },
   "devDependencies": {
-    "@adufr/eslint-config": "npm:@jsr/adufr__eslint-config@^1.0.1",
+    "@adufr/eslint-config": "^1.0.1",
     "bumpp": "^10.0.3",
     "eslint": "^9.21.0",
     "prettier": "^3.5.2"
