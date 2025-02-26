@@ -29,7 +29,7 @@
   "scripts": {
     "lint": "eslint --cache",
     "lint:fix": "eslint --cache --fix",
-    "release": "bumpp && pnpm publish && npx jsr publish"
+    "release": "bumpp && pnpm publish"
   },
   "peerDependencies": {
     "prettier-plugin-tailwindcss": "^0.6.11"

@@ -36,12 +36,6 @@ export default {
         requirePragma: true,
       },
     },
-    {
-      files: ['**/jsr.json'],
-      options: {
-        parser: 'json-stringify',
-      },
-    },
   ],
   plugins: ['prettier-plugin-tailwindcss'],
 }
