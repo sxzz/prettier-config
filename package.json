@@ -29,6 +29,8 @@
   "scripts": {
     "lint": "eslint --cache",
     "lint:fix": "eslint --cache --fix",
+    "format": "prettier --check .",
+    "format:fix": "prettier --write .",
     "release": "bumpp && pnpm publish"
   },
   "peerDependencies": {
