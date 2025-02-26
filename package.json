@@ -34,6 +34,11 @@
   "peerDependencies": {
     "prettier-plugin-tailwindcss": "^0.6.11"
   },
+  "peerDependenciesMeta": {
+    "prettier-plugin-tailwindcss": {
+      "optional": true
+    }
+  },
   "devDependencies": {
     "@adufr/eslint-config": "^1.0.1",
     "bumpp": "^10.0.3",

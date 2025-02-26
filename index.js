@@ -1,5 +1,7 @@
 // @ts-check
 
+import * as tailwind from 'prettier-plugin-tailwindcss'
+
 /** @type {import('prettier').Config} */
 export default {
   semi: false,
@@ -37,5 +39,5 @@ export default {
       },
     },
   ],
-  plugins: ['prettier-plugin-tailwindcss'],
+  plugins: [tailwind],
 }
