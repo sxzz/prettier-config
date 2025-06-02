@@ -32,9 +32,9 @@
     "release": "bumpp && pnpm publish"
   },
   "devDependencies": {
-    "@sxzz/eslint-config": "^7.0.1",
+    "@sxzz/eslint-config": "^7.0.2",
     "bumpp": "^10.1.1",
-    "eslint": "^9.27.0",
+    "eslint": "^9.28.0",
     "prettier": "^3.5.3"
   },
   "prettier": "./index.js"
