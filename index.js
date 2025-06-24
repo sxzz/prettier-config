@@ -1,5 +1,5 @@
 // @ts-check
-import * as oxc from '@prettier/plugin-oxc'
+import { fileURLToPath } from 'node:url'
 
 /** @type {import('prettier').Config} */
 export default {
@@ -44,5 +44,5 @@ export default {
       },
     },
   ],
-  plugins: [oxc],
+  plugins: [fileURLToPath(import.meta.resolve('@prettier/plugin-oxc'))],
 }
