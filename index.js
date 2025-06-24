@@ -1,4 +1,5 @@
 // @ts-check
+import * as oxc from '@prettier/plugin-oxc'
 
 /** @type {import('prettier').Config} */
 export default {
@@ -43,4 +44,5 @@ export default {
       },
     },
   ],
+  plugins: [oxc],
 }
