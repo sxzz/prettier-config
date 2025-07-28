@@ -36,7 +36,7 @@
     "@prettier/plugin-oxc": "^0.0.4"
   },
   "devDependencies": {
-    "@sxzz/eslint-config": "^7.0.6",
+    "@sxzz/eslint-config": "^7.1.0",
     "bumpp": "^10.2.0",
     "eslint": "^9.32.0",
     "prettier": "^3.6.2"
