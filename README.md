@@ -1,4 +1,7 @@
-# @sxzz/prettier-config [![npm](https://img.shields.io/npm/v/@sxzz/prettier-config.svg)](https://npmjs.com/package/@sxzz/prettier-config)
+# @sxzz/prettier-config
+
+[![npm version][npm-version-src]][npm-version-href]
+[![npm downloads][npm-downloads-src]][npm-downloads-href]
 
 Prettier config.
 
@@ -27,3 +30,10 @@ npm i -D @sxzz/prettier-config
 ## License
 
 [MIT](./LICENSE) License © 2023-PRESENT [Kevin Deng](https://github.com/sxzz)
+
+<!-- Badges -->
+
+[npm-version-src]: https://img.shields.io/npm/v/@sxzz/prettier-config.svg
+[npm-version-href]: https://npmjs.com/package/@sxzz/prettier-config
+[npm-downloads-src]: https://img.shields.io/npm/dm/@sxzz/prettier-config
+[npm-downloads-href]: https://www.npmcharts.com/compare/@sxzz/prettier-config?interval=30
