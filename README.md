@@ -26,4 +26,4 @@ npm i -D @sxzz/prettier-config
 
 ## License
 
-[MIT](./LICENSE) License © 2023-PRESENT [三咲智子](https://github.com/sxzz)
+[MIT](./LICENSE) License © 2023-PRESENT [Kevin Deng](https://github.com/sxzz)
