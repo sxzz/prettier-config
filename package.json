@@ -37,7 +37,7 @@
   },
   "devDependencies": {
     "@sxzz/eslint-config": "^7.1.2",
-    "bumpp": "^10.2.2",
+    "bumpp": "^10.2.3",
     "eslint": "^9.33.0",
     "prettier": "^3.6.2"
   },
