@@ -34,7 +34,7 @@
     "release": "bumpp"
   },
   "dependencies": {
-    "@prettier/plugin-oxc": "^0.0.4"
+    "@prettier/plugin-oxc": "^0.0.5"
   },
   "devDependencies": {
     "@sxzz/eslint-config": "^7.2.10",
