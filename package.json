@@ -1,7 +1,7 @@
 {
   "name": "@sxzz/prettier-config",
   "version": "2.2.4",
-  "packageManager": "pnpm@10.21.0",
+  "packageManager": "pnpm@10.22.0",
   "description": "Prettier config for @sxzz",
   "type": "module",
   "license": "MIT",
@@ -37,7 +37,7 @@
     "@prettier/plugin-oxc": "^0.0.4"
   },
   "devDependencies": {
-    "@sxzz/eslint-config": "^7.2.8",
+    "@sxzz/eslint-config": "^7.2.10",
     "bumpp": "^10.3.1",
     "eslint": "^9.39.1",
     "prettier": "^3.6.2"
