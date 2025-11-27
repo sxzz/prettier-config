@@ -1,6 +1,6 @@
 {
   "name": "@sxzz/prettier-config",
-  "version": "2.2.5",
+  "version": "2.2.6",
   "packageManager": "pnpm@10.24.0",
   "description": "Prettier config for @sxzz",
   "type": "module",
