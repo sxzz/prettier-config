@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "lib": ["es2023"],
+    "moduleDetection": "force",
+    "module": "node20",
+    "moduleResolution": "node16",
+    "resolveJsonModule": true,
+    "types": ["node"],
+    "allowJs": true,
+    "strict": true,
+    "noUnusedLocals": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "isolatedModules": true,
+    "verbatimModuleSyntax": true,
+    "skipLibCheck": true
+  },
+  "include": ["index.*"]
+}

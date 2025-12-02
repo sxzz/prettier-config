@@ -1,2 +1,4 @@
 import type { Config } from 'prettier'
-export default Config
+
+declare const config: Config
+export default config
