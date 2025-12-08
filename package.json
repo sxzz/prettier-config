@@ -35,15 +35,15 @@
     "release": "bumpp"
   },
   "dependencies": {
-    "@prettier/plugin-oxc": "^0.1.2"
+    "@prettier/plugin-oxc": "^0.1.3"
   },
   "devDependencies": {
     "@sxzz/eslint-config": "^7.4.1",
     "@types/node": "^24.10.1",
-    "@typescript/native-preview": "7.0.0-dev.20251202.1",
+    "@typescript/native-preview": "7.0.0-dev.20251207.1",
     "bumpp": "^10.3.2",
     "eslint": "^9.39.1",
-    "prettier": "^3.7.3"
+    "prettier": "^3.7.4"
   },
   "prettier": "./index.js"
 }
