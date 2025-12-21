@@ -1,29 +1,29 @@
 {
   "name": "@sxzz/prettier-config",
-  "version": "2.2.6",
-  "packageManager": "pnpm@10.25.0",
-  "description": "Prettier config for @sxzz",
   "type": "module",
+  "version": "2.2.6",
+  "packageManager": "pnpm@10.26.1",
+  "description": "Prettier config for @sxzz",
+  "author": "Kevin Deng <sxzz@sxzz.moe>",
   "license": "MIT",
+  "funding": "https://github.com/sponsors/sxzz",
   "homepage": "https://github.com/sxzz/prettier-config#readme",
-  "bugs": {
-    "url": "https://github.com/sxzz/prettier-config/issues"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/sxzz/prettier-config.git"
   },
-  "author": "Kevin Deng <sxzz@sxzz.moe>",
-  "funding": "https://github.com/sponsors/sxzz",
-  "files": [
-    "index.d.ts",
-    "index.js"
-  ],
-  "types": "index.d.ts",
+  "bugs": {
+    "url": "https://github.com/sxzz/prettier-config/issues"
+  },
   "exports": {
     ".": "./index.js",
     "./package.json": "./package.json"
   },
+  "types": "index.d.ts",
+  "files": [
+    "index.d.ts",
+    "index.js"
+  ],
   "publishConfig": {
     "access": "public"
   },
@@ -39,8 +39,8 @@
   },
   "devDependencies": {
     "@sxzz/eslint-config": "^7.4.3",
-    "@types/node": "^24.10.4",
-    "@typescript/native-preview": "7.0.0-dev.20251214.1",
+    "@types/node": "^25.0.3",
+    "@typescript/native-preview": "7.0.0-dev.20251221.1",
     "bumpp": "^10.3.2",
     "eslint": "^9.39.2",
     "prettier": "^3.7.4"
