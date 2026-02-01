@@ -1,3 +1,10 @@
 import { nodeLib } from 'tsdown-preset-sxzz'
 
-export default nodeLib()
+export default nodeLib(
+  {},
+  {
+    dts: {
+      tsgo: true,
+    },
+  },
+)
