@@ -7,7 +7,6 @@
     "moduleResolution": "node16",
     "resolveJsonModule": true,
     "types": ["node"],
-    "allowJs": true,
     "strict": true,
     "noUnusedLocals": true,
     "noEmit": true,
@@ -16,5 +15,5 @@
     "verbatimModuleSyntax": true,
     "skipLibCheck": true
   },
-  "include": ["index.*"]
+  "include": ["src"]
 }

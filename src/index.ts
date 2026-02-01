@@ -1,7 +1,32 @@
-// @ts-check
+import process from 'node:process'
 import { fileURLToPath } from 'node:url'
+import type { Config } from 'prettier'
 
-/** @type {import('prettier').Config} */
+const resolveOpts = { paths: [process.cwd()] }
+function isInstalled(pkg: string): boolean {
+  try {
+    require.resolve(pkg, resolveOpts)
+    return true
+  } catch {
+    return false
+  }
+}
+
+function resolvePlugin(pkg: string): string | undefined {
+  try {
+    return fileURLToPath(import.meta.resolve(pkg))
+  } catch {}
+}
+
+const plugins: string[] = [
+  fileURLToPath(import.meta.resolve('@prettier/plugin-oxc')),
+]
+
+if (isInstalled('astro')) {
+  const plugin = resolvePlugin('prettier-plugin-astro')
+  if (plugin) plugins.push(plugin)
+}
+
 export default {
   semi: false,
   singleQuote: true,
@@ -44,5 +69,5 @@ export default {
       },
     },
   ],
-  plugins: [fileURLToPath(import.meta.resolve('@prettier/plugin-oxc'))],
-}
+  plugins,
+} satisfies Config
