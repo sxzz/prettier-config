@@ -35,6 +35,7 @@
     "prepublishOnly": "pnpm run build"
   },
   "peerDependencies": {
+    "prettier": "^3.8.0",
     "prettier-plugin-astro": "^0.14.1"
   },
   "peerDependenciesMeta": {

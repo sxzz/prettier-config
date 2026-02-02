@@ -21,53 +21,60 @@ function resolvePlugin(pkg: string): string | undefined {
 const plugins: string[] = [
   fileURLToPath(import.meta.resolve('@prettier/plugin-oxc')),
 ]
+const overrides: NonNullable<Config['overrides']> = [
+  {
+    files: [
+      '**/node_modules/**',
+      '**/dist/**',
+      '**/coverage/**',
+      '**/temp/**',
+      '**/.vitepress/cache/**',
+      '**/.nuxt/**',
+      '**/.vercel/**',
+      '**/.changeset/**',
+      '**/.idea/**',
+      '**/.output/**',
+      '**/.vite-inspect/**',
+
+      // root directory
+      'output/**',
+
+      '**/CHANGELOG*.md',
+      '**/*.min.*',
+      '**/LICENSE*',
+      '**/__snapshots__',
+      '**/auto-import?(s).d.ts',
+      '**/components.d.ts',
+      '**/typed-router.d.ts',
+      '**/pnpm-lock.yaml',
+    ],
+    options: {
+      requirePragma: true,
+    },
+  },
+  {
+    files: ['**/jsr.json'],
+    options: {
+      parser: 'json-stringify',
+    },
+  },
+]
 
 if (isInstalled('astro')) {
   const plugin = resolvePlugin('prettier-plugin-astro')
-  if (plugin) plugins.push(plugin)
+  if (plugin) {
+    plugins.push(plugin)
+    overrides.push({
+      files: '*.astro',
+      options: { parser: 'astro' },
+    })
+  }
 }
 
 export default {
   semi: false,
   singleQuote: true,
   trailingComma: 'all',
-  overrides: [
-    {
-      files: [
-        '**/node_modules/**',
-        '**/dist/**',
-        '**/coverage/**',
-        '**/temp/**',
-        '**/.vitepress/cache/**',
-        '**/.nuxt/**',
-        '**/.vercel/**',
-        '**/.changeset/**',
-        '**/.idea/**',
-        '**/.output/**',
-        '**/.vite-inspect/**',
-
-        // root directory
-        'output/**',
-
-        '**/CHANGELOG*.md',
-        '**/*.min.*',
-        '**/LICENSE*',
-        '**/__snapshots__',
-        '**/auto-import?(s).d.ts',
-        '**/components.d.ts',
-        '**/typed-router.d.ts',
-        '**/pnpm-lock.yaml',
-      ],
-      options: {
-        requirePragma: true,
-      },
-    },
-    {
-      files: ['**/jsr.json'],
-      options: {
-        parser: 'json-stringify',
-      },
-    },
-  ],
+  overrides,
   plugins,
 } satisfies Config
