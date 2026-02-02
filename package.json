@@ -31,7 +31,8 @@
     "build": "tsdown",
     "format": "prettier -w .",
     "typecheck": "tsgo --noEmit",
-    "release": "bumpp"
+    "release": "bumpp",
+    "prepublishOnly": "pnpm run build"
   },
   "peerDependencies": {
     "prettier-plugin-astro": "^0.14.1"
