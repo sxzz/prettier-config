@@ -2,7 +2,7 @@
   "name": "@sxzz/prettier-config",
   "type": "module",
   "version": "2.3.1",
-  "packageManager": "pnpm@10.31.0",
+  "packageManager": "pnpm@10.32.1",
   "description": "Prettier config for @sxzz",
   "author": "Kevin Deng <sxzz@sxzz.moe>",
   "license": "MIT",
@@ -48,13 +48,13 @@
   },
   "devDependencies": {
     "@sxzz/eslint-config": "^7.8.3",
-    "@types/node": "^25.3.5",
-    "@typescript/native-preview": "7.0.0-dev.20260308.1",
+    "@types/node": "^25.5.0",
+    "@typescript/native-preview": "7.0.0-dev.20260315.1",
     "bumpp": "^10.4.1",
     "eslint": "^10.0.3",
     "prettier": "^3.8.1",
-    "tsdown": "^0.21.0",
-    "tsdown-preset-sxzz": "^0.4.0"
+    "tsdown": "^0.21.3",
+    "tsdown-preset-sxzz": "^0.4.2"
   },
   "prettier": "./dist/index.mjs"
 }
