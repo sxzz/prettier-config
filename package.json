@@ -2,7 +2,7 @@
   "name": "@sxzz/prettier-config",
   "type": "module",
   "version": "2.3.1",
-  "packageManager": "pnpm@11.8.0",
+  "packageManager": "pnpm@11.9.0",
   "description": "Prettier config for @sxzz",
   "author": "Kevin Deng <sxzz@sxzz.moe>",
   "license": "MIT",
@@ -44,12 +44,12 @@
     }
   },
   "dependencies": {
-    "@prettier/plugin-oxc": "^0.1.4"
+    "@prettier/plugin-oxc": "^0.2.0"
   },
   "devDependencies": {
     "@sxzz/eslint-config": "^8.0.0",
     "@types/node": "^25.6.0",
-    "@typescript/native-preview": "7.0.0-dev.20260621.1",
+    "@typescript/native-preview": "7.0.0-dev.20260628.1",
     "bumpp": "^11.0.1",
     "eslint": "^10.3.0",
     "prettier": "^3.8.3",
