@@ -38,6 +38,7 @@ const overrides: NonNullable<Config['overrides']> = [
 
       // root directory
       'output/**',
+      '__snapshots__/**',
 
       '**/CHANGELOG*.md',
       '**/*.min.*',
