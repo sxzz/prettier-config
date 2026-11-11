@@ -3,8 +3,6 @@ import { nodeLib } from 'tsdown-preset-sxzz'
 export default nodeLib(
   {},
   {
-    dts: {
-      tsgo: true,
-    },
+    dts: { generator: 'tsrs' },
   },
 )

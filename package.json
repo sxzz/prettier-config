@@ -29,7 +29,7 @@
   "devEngines": {
     "packageManager": {
       "name": "pnpm",
-      "version": "12.15.0",
+      "version": "12.18.0",
       "onFail": "download"
     }
   },
@@ -37,7 +37,7 @@
     "lint": "eslint --cache",
     "build": "tsdown",
     "format": "prettier -w .",
-    "typecheck": "tsc --noEmit",
+    "typecheck": "tsrs --fast",
     "release": "bumpp",
     "prepublishOnly": "pnpm run build"
   },
@@ -51,17 +51,17 @@
     }
   },
   "dependencies": {
-    "@prettier/plugin-oxc": "^0.2.3"
+    "@prettier/plugin-oxc": "^0.2.4"
   },
   "devDependencies": {
-    "@sxzz/eslint-config": "^8.6.0",
-    "@types/node": "^26.1.1",
-    "@typescript/native-preview": "npm:typescript@^7.0.2",
+    "@sxzz/eslint-config": "^8.9.2",
+    "@types/node": "^26.6.6",
     "bumpp": "^12.3.0",
-    "eslint": "^10.10.0",
-    "prettier": "^3.9.7",
-    "tsdown": "^0.23.0",
-    "tsdown-preset-sxzz": "^0.7.0",
+    "eslint": "^10.14.0",
+    "prettier": "^3.10.0",
+    "tsdown": "^0.23.7",
+    "tsdown-preset-sxzz": "^0.7.1",
+    "tsrs": "0.24.0-ts7.1.0-beta",
     "typescript": "^6.0.3"
   },
   "prettier": "./dist/index.mjs"
