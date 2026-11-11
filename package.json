@@ -51,7 +51,7 @@
     }
   },
   "dependencies": {
-    "@prettier/plugin-oxc": "^0.2.4"
+    "@prettier/plugin-yuku": "^0.0.3"
   },
   "devDependencies": {
     "@sxzz/eslint-config": "^8.9.2",

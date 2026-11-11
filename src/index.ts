@@ -19,7 +19,7 @@ function resolvePlugin(pkg: string): string | undefined {
 }
 
 const plugins: string[] = [
-  fileURLToPath(import.meta.resolve('@prettier/plugin-oxc')),
+  fileURLToPath(import.meta.resolve('@prettier/plugin-yuku')),
 ]
 const overrides: NonNullable<Config['overrides']> = [
   {
